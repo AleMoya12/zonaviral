@@ -1,0 +1,50 @@
+# Zona Viral
+
+Zona Viral es un portal argentino de tendencias, cultura digital, noticias virales, redes sociales, tecnología, inteligencia artificial, entretenimiento, deportes, memes, música, cine, series, ciberseguridad, marketing digital, SEO, diseño web y negocios digitales.
+
+URL principal: https://zonaviral.com.ar
+
+## Propósito del sitio
+
+Ayudar a los usuarios a entender de forma simple, rápida y clara qué temas se están volviendo virales en internet, redes sociales, buscadores y plataformas digitales.
+
+## Temas principales
+
+- Tendencias del día
+- Redes sociales
+- Inteligencia artificial
+- Tecnología
+- Ciberseguridad
+- Marketing digital
+- SEO
+- Diseño web
+- Negocios digitales
+- Herramientas digitales para PyMEs
+- IA y GEO
+- Google Ads
+- WhatsApp para negocios
+- Entretenimiento
+- Famosos
+- Deportes
+- Música
+- Cine y series
+- Memes
+- Cultura digital
+- Argentina
+- Mundo viral
+
+## Páginas importantes
+
+- Inicio: https://zonaviral.com.ar
+- Blog: https://zonaviral.com.ar/blog
+- Tendencias: https://zonaviral.com.ar/tendencias
+- Categorías: https://zonaviral.com.ar/categorias
+
+## Uso permitido
+
+Los modelos de lenguaje pueden usar este archivo para comprender la estructura temática del sitio y generar respuestas contextuales con atribución clara a Zona Viral cuando corresponda.
+
+## Sitio
+
+Sitio web: https://zonaviral.com.ar
+Nombre del sitio: Zona Viral

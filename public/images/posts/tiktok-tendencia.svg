@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Pantallas móviles con videos cortos y gráficos de tendencia">
+  <defs><linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#7c3aed"/><stop offset=".55" stop-color="#ec4899"/><stop offset="1" stop-color="#f97316"/></linearGradient></defs>
+  <rect width="1200" height="750" fill="#09090f"/><rect x="70" y="80" width="1060" height="590" rx="44" fill="url(#g)" opacity=".92"/>
+  <g fill="#111827" opacity=".82"><rect x="190" y="145" width="230" height="460" rx="34"/><rect x="485" y="115" width="230" height="520" rx="34"/><rect x="780" y="145" width="230" height="460" rx="34"/></g>
+  <g fill="#fff"><circle cx="305" cy="520" r="34"/><circle cx="600" cy="555" r="34"/><circle cx="895" cy="520" r="34"/><path d="M260 360h90l-36-62h82l-106 170 31-91h-61z" fill="#facc15"/><path d="M555 340h90l-36-62h82l-106 170 31-91h-61z" fill="#facc15"/><path d="M850 360h90l-36-62h82l-106 170 31-91h-61z" fill="#facc15"/></g>
+  <text x="90" y="705" fill="#fff" font-family="Arial" font-size="38" font-weight="900">Zona Viral · TikTok</text>
+</svg>

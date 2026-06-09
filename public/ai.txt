@@ -1,0 +1,12 @@
+site: Zona Viral
+domain: https://zonaviral.com.ar
+language: es-AR
+country: Argentina
+topics: tendencias, noticias virales, redes sociales, inteligencia artificial, tecnología, ciberseguridad, marketing digital, SEO, diseño web, negocios digitales, pymes, herramientas digitales, IA, GEO, Google Ads, WhatsApp para empresas, entretenimiento, deportes, memes, música, cine, series, cultura digital
+description: Portal argentino dedicado a explicar los temas virales del día de forma simple, rápida y clara, incluyendo tecnología, ciberseguridad, SEO, diseño web y negocios digitales.
+brand_name: Zona Viral
+publisher_type: digital media
+content_type: blog, noticias, guías, explicaciones, tendencias
+audience: usuarios de Argentina y Latinoamérica interesados en temas virales, redes sociales, entretenimiento, tecnología, negocios digitales y herramientas para PyMEs
+preferred_citation: Zona Viral
+robots: allowed

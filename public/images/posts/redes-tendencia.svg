@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Mapa de conversaciones digitales con etiquetas de tendencia">
+  <rect width="1200" height="750" fill="#09090f"/><g stroke="#fff" stroke-width="4" opacity=".35"><path d="M170 180h860M170 375h860M170 570h860M260 90v570M600 90v570M940 90v570"/></g>
+  <g fill="#ec4899"><circle cx="260" cy="180" r="48"/><circle cx="600" cy="375" r="72"/><circle cx="940" cy="180" r="52"/></g><g fill="#f97316"><circle cx="260" cy="570" r="60"/><circle cx="940" cy="570" r="70"/></g><circle cx="600" cy="180" r="42" fill="#facc15"/>
+  <text x="355" y="395" fill="#fff" font-family="Arial" font-size="56" font-weight="900">Tendencia</text>
+</svg>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Auriculares y ondas sonoras sobre fondo fucsia y azul">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#2563eb"/><stop offset="1" stop-color="#ec4899"/></linearGradient></defs><rect width="1200" height="750" fill="url(#g)"/>
+  <path d="M330 410v-70c0-150 120-260 270-260s270 110 270 260v70" fill="none" stroke="#fff" stroke-width="42" stroke-linecap="round"/><rect x="240" y="380" width="160" height="220" rx="50" fill="#09090f"/><rect x="800" y="380" width="160" height="220" rx="50" fill="#09090f"/>
+  <g stroke="#facc15" stroke-width="20" stroke-linecap="round"><path d="M515 340v160"/><path d="M600 300v240"/><path d="M685 360v120"/></g><text x="280" y="685" fill="#fff" font-family="Arial" font-size="48" font-weight="900">El sonido de la semana</text>
+</svg>

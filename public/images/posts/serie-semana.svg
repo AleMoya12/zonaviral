@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Sala de cine con luces de neón y una pantalla abstracta">
+  <rect width="1200" height="750" fill="#09090f"/><path d="M0 650h1200L860 390H340z" fill="#111827"/><rect x="180" y="100" width="840" height="420" rx="34" fill="#fff"/><rect x="210" y="130" width="780" height="360" rx="24" fill="#1f2937"/>
+  <path d="M250 440 520 210l150 150 125-95 165 175z" fill="#ec4899"/><circle cx="780" cy="230" r="55" fill="#facc15"/><g fill="#7c3aed"><rect x="260" y="585" width="120" height="80" rx="18"/><rect x="440" y="585" width="120" height="80" rx="18"/><rect x="620" y="585" width="120" height="80" rx="18"/><rect x="800" y="585" width="120" height="80" rx="18"/></g>
+</svg>

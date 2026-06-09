@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" role="img" aria-label="Grilla de videos verticales con reacciones y colores vivos">
+  <rect width="1200" height="750" fill="#09090f"/><g><rect x="120" y="105" width="230" height="510" rx="34" fill="#2563eb"/><rect x="390" y="105" width="230" height="510" rx="34" fill="#ec4899"/><rect x="660" y="105" width="230" height="510" rx="34" fill="#7c3aed"/><rect x="930" y="105" width="150" height="510" rx="34" fill="#f97316"/></g>
+  <g fill="#fff"><path d="m220 330 95 55-95 55z"/><path d="m490 330 95 55-95 55z"/><path d="m760 330 95 55-95 55z"/><circle cx="235" cy="550" r="24"/><circle cx="505" cy="550" r="24"/><circle cx="775" cy="550" r="24"/></g>
+</svg>
