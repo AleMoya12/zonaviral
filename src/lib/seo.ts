@@ -94,5 +94,8 @@ export const defaultMetadata: Metadata = {
   robots: {
     index: true,
     follow: true
+  },
+  verification: {
+    google: "RyVCeD3cXPwGTyMOndDM4y6qxoPR21iwGUMrh_W1_Mc"
   }
 };
