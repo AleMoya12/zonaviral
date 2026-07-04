@@ -19,11 +19,12 @@ const config: Config = {
         }
       },
       boxShadow: {
-        glow: "0 20px 80px rgba(236, 72, 153, 0.22)",
-        card: "0 18px 60px rgba(0, 0, 0, 0.25)"
+        glow: "0 24px 80px rgba(191, 58, 20, 0.24)",
+        card: "0 24px 80px rgba(0, 0, 0, 0.32)"
       },
       fontFamily: {
-        sans: ["var(--font-manrope)", "Arial", "Helvetica", "sans-serif"]
+        sans: ["var(--font-inter-tight)", "Arial", "Helvetica", "sans-serif"],
+        display: ["var(--font-sora)", "Arial", "Helvetica", "sans-serif"]
       }
     }
   },

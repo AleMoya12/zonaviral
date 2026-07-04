@@ -16,43 +16,54 @@ import { createMetadata } from "@/lib/seo";
 export const metadata: Metadata = createMetadata({
   title: "Zona Viral | Tendencias, noticias virales y cultura digital",
   description:
-    "Descubrí las tendencias, noticias virales, memes, tecnología, redes sociales y entretenimiento más comentados del día.",
+    "Descubri las tendencias, noticias virales, memes, tecnologia, redes sociales y entretenimiento mas comentados del dia.",
   path: "/"
 });
 
 export default function HomePage() {
   const featured = latestPosts.find((post) => post.featured) ?? latestPosts[0];
+  const heroRanking = trendingPosts.slice(0, 5);
+  const trendLabels = [
+    "IA generativa",
+    "TikTok",
+    "Buscadores con IA",
+    "Seguridad digital",
+    "Series y memes"
+  ];
 
   return (
     <>
-      <Hero />
-      <Container className="space-y-20">
+      <Hero featured={featured} ranking={heroRanking} trendLabels={trendLabels} />
+      <Container className="space-y-20 pt-10">
         <section>
           <SectionTitle
-            description="Temas que aparecen fuerte en redes, buscadores y conversaciones de Argentina y Latinoamérica."
+            description="Temas que aparecen fuerte en redes, buscadores y conversaciones de Argentina y Latinoamerica."
             eyebrow="Ahora"
-            title="Tendencias del día"
+            title="Tendencias del dia"
           />
           <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
             {trendingPosts.slice(0, 6).map((post) => (
-              <article className="rounded-3xl border border-white/10 bg-white/[0.055] p-6" key={post.slug}>
+              <article className="glass rounded-[2rem] p-6" key={post.slug}>
                 <div className="mb-4 flex items-center justify-between gap-3">
-                  <Link className="text-xs font-black uppercase text-viral-yellow" href={`/categoria/${post.category}`}>
+                  <Link
+                    className="text-xs font-extrabold uppercase tracking-[0.18em] text-orange-300"
+                    href={`/categoria/${post.category}`}
+                  >
                     {getCategoryName(post.category)}
                   </Link>
                   <TrendingBadge />
                 </div>
-                <h3 className="text-xl font-black leading-tight text-white">
-                  <Link className="hover:text-viral-yellow" href={`/blog/${post.slug}`}>
+                <h3 className="font-display text-xl font-black leading-tight tracking-[-0.02em] text-stone-50">
+                  <Link className="hover:text-orange-300" href={`/blog/${post.slug}`}>
                     {post.title}
                   </Link>
                 </h3>
-                <p className="mt-3 text-sm leading-7 text-gray-300">{post.description}</p>
+                <p className="mt-3 text-sm leading-7 text-stone-300/90">{post.description}</p>
                 <Link
-                  className="mt-5 inline-flex items-center gap-2 text-sm font-black text-white hover:text-viral-yellow"
+                  className="mt-5 inline-flex items-center gap-2 text-sm font-extrabold text-stone-100 hover:text-orange-300"
                   href={`/blog/${post.slug}`}
                 >
-                  Leer artículo
+                  Leer articulo
                   <ArrowRight aria-hidden="true" className="h-4 w-4" />
                 </Link>
               </article>
@@ -62,9 +73,9 @@ export default function HomePage() {
 
         <section>
           <SectionTitle
-            description="Historias recientes con contexto claro, imágenes optimizadas y enlaces internos para seguir leyendo."
+            description="Historias recientes con contexto claro, imagenes optimizadas y enlaces internos para seguir leyendo."
             eyebrow="Novedades"
-            title="Últimas noticias"
+            title="Ultimas noticias"
           />
           <div className="grid gap-8 lg:grid-cols-[1fr_360px]">
             <div className="space-y-8">
@@ -81,9 +92,9 @@ export default function HomePage() {
 
         <section>
           <SectionTitle
-            description="Un acceso rápido a los temas que más crecen dentro del portal."
-            eyebrow="Explorá"
-            title="Categorías populares"
+            description="Un acceso rapido a los temas que mas crecen dentro del portal."
+            eyebrow="Explora"
+            title="Categorias populares"
           />
           <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
             {categories.slice(0, 8).map((category) => (
@@ -98,16 +109,16 @@ export default function HomePage() {
 
         <section>
           <SectionTitle
-            description="Notas para entender rápido qué significa un tema, por qué creció y qué contexto conviene tener antes de compartir."
-            eyebrow="Guías"
+            description="Notas para entender rapido que significa un tema, por que crecio y que contexto conviene tener antes de compartir."
+            eyebrow="Guias"
             title="Explicado simple"
           />
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4">
-            {["Qué significa...", "Por qué se volvió viral...", "Quién es...", "Qué pasó con..."].map((title) => (
-              <div className="rounded-3xl border border-white/10 bg-white/[0.055] p-6" key={title}>
-                <h3 className="text-xl font-black text-white">{title}</h3>
-                <p className="mt-3 text-sm leading-7 text-gray-300">
-                  Formatos pensados para responder dudas concretas con contexto, cuidado editorial y lectura rápida.
+            {["Que significa...", "Por que se volvio viral...", "Quien es...", "Que paso con..."].map((title) => (
+              <div className="glass rounded-[2rem] p-6" key={title}>
+                <h3 className="font-display text-xl font-black tracking-[-0.02em] text-stone-50">{title}</h3>
+                <p className="mt-3 text-sm leading-7 text-stone-300/90">
+                  Formatos pensados para responder dudas concretas con contexto, cuidado editorial y lectura rapida.
                 </p>
               </div>
             ))}

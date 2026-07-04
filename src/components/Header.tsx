@@ -9,26 +9,28 @@ const navigation = [
   { label: "Inicio", href: "/" },
   { label: "Tendencias", href: "/tendencias" },
   { label: "Blog", href: "/blog" },
-  { label: "Categorías", href: "/categorias" }
+  { label: "Categorias", href: "/categorias" }
 ];
 
 export function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-viral-black/82 backdrop-blur-xl">
+    <header className="sticky top-0 z-50 border-b border-white/10 bg-[#120f0c]/88 backdrop-blur-xl">
       <Container className="flex h-20 items-center justify-between">
         <Link aria-label="Zona Viral inicio" className="flex items-center gap-3" href="/">
-          <span className="grid h-11 w-11 place-items-center rounded-2xl bg-gradient-to-br from-viral-pink via-viral-purple to-viral-blue font-black text-white shadow-glow">
+          <span className="grid h-11 w-11 place-items-center rounded-2xl bg-gradient-to-br from-red-700 via-orange-500 to-amber-300 font-black text-stone-950 shadow-glow">
             ZV
           </span>
-          <span className="text-xl font-black tracking-normal text-white">Zona Viral</span>
+          <span className="font-display text-xl font-black tracking-[-0.03em] text-stone-50">
+            Zona Viral
+          </span>
         </Link>
 
-        <nav aria-label="Menú principal" className="hidden items-center gap-7 lg:flex">
+        <nav aria-label="Menu principal" className="hidden items-center gap-7 lg:flex">
           {navigation.map((item) => (
             <Link
-              className="text-sm font-bold text-gray-200 transition hover:text-viral-yellow"
+              className="text-sm font-semibold uppercase tracking-[0.16em] text-stone-300 transition hover:text-orange-300"
               href={item.href}
               key={item.href}
             >
@@ -40,13 +42,13 @@ export function Header() {
         <div className="hidden items-center gap-3 lg:flex">
           <Link
             aria-label="Buscar en el blog"
-            className="grid h-11 w-11 place-items-center rounded-full border border-white/15 bg-white/5 text-white transition hover:border-viral-yellow hover:text-viral-yellow"
+            className="grid h-11 w-11 place-items-center rounded-full border border-white/15 bg-white/5 text-stone-100 transition hover:border-orange-300/40 hover:text-orange-300"
             href="/blog"
           >
             <Search aria-hidden="true" className="h-4 w-4" />
           </Link>
           <Link
-            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-viral-pink to-viral-orange px-5 py-3 text-sm font-black text-white shadow-glow transition hover:scale-[1.02]"
+            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-red-700 via-orange-500 to-amber-300 px-5 py-3 text-sm font-extrabold text-stone-950 shadow-glow transition hover:scale-[1.02]"
             href="/tendencias"
           >
             <Sparkles aria-hidden="true" className="h-4 w-4" />
@@ -56,8 +58,8 @@ export function Header() {
 
         <button
           aria-expanded={open}
-          aria-label={open ? "Cerrar menú" : "Abrir menú"}
-          className="grid h-11 w-11 place-items-center rounded-full border border-white/15 bg-white/5 text-white lg:hidden"
+          aria-label={open ? "Cerrar menu" : "Abrir menu"}
+          className="grid h-11 w-11 place-items-center rounded-full border border-white/15 bg-white/5 text-stone-100 lg:hidden"
           onClick={() => setOpen((current) => !current)}
           type="button"
         >
@@ -66,11 +68,11 @@ export function Header() {
       </Container>
 
       {open ? (
-        <div className="border-t border-white/10 bg-viral-black/95 lg:hidden">
+        <div className="border-t border-white/10 bg-[#120f0c]/95 lg:hidden">
           <Container className="grid gap-2 py-4">
             {navigation.map((item) => (
               <Link
-                className="rounded-2xl px-4 py-3 text-base font-bold text-gray-100 transition hover:bg-white/10"
+                className="rounded-2xl px-4 py-3 text-base font-semibold text-stone-100 transition hover:bg-white/10"
                 href={item.href}
                 key={item.href}
                 onClick={() => setOpen(false)}
@@ -79,7 +81,7 @@ export function Header() {
               </Link>
             ))}
             <Link
-              className="mt-2 inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-viral-pink to-viral-orange px-5 py-3 font-black text-white"
+              className="mt-2 inline-flex items-center justify-center gap-2 rounded-2xl bg-gradient-to-r from-red-700 via-orange-500 to-amber-300 px-5 py-3 font-extrabold text-stone-950"
               href="/tendencias"
               onClick={() => setOpen(false)}
             >
